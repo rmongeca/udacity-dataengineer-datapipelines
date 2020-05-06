@@ -13,7 +13,7 @@ default_args = {
 }
 
 dag = DAG(
-    "test_dag",
+    "data_pipeline",
     default_args=default_args,
     description="Load and transform data in Redshift with Airflow",
     schedule_interval="@monthly"
